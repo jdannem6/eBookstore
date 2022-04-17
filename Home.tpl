@@ -83,9 +83,6 @@ div.scroll {
   text-align: center;
   padding: 20px;
 }
-/* Styling book menu */
-ul {
-  list-style-type: none;}
 
 /* Styling text boxes within book menu */
 .text-box{
@@ -93,10 +90,15 @@ ul {
   font-size: 20 px;
   margin-top: 10px;
   margin-left 2%;
-  width: fit-content;
-  
+  width: 30%;
 }
 
+.item {
+  width: -moz-fit-content;
+  width: fit-content
+}
+  
+/* Styling book menu */
 .book-menu {
    margin: 100%, 100%;
    padding: 4px;
@@ -105,6 +107,7 @@ ul {
    overflow-y: hidden;
    white-space: nowrap;
    }
+
 
 span.a {
   display: inline-block;
@@ -161,8 +164,10 @@ li{display: in-line;}
 </div>
 
 <!-- Main Content: contains the books and related info user wants -->
-<div class = "scroll">
-  <div class = "text-box">Recommendations</div>
+<div class= "scroll">
+  <div class= "text-box">
+    <div class= "item" style = "margin-left: 10%">Recommendations</div>
+  </div>
   <div class = "book-menu">
      <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965022913096978432/unknown.png" width="100%" height="100%"> </span>
      <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965033176466604082/unknown.png" width="100%" height="100%"> </span>
@@ -170,8 +175,9 @@ li{display: in-line;}
      <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965033356553240597/unknown.png" width="100%" height="100%"> </span>
  </div>
  
- <div class = "text-box">Most Popular</div>
- <div class = "book-menu">
+ <div class = "text-box">
+  <div class= "item" style = "margin-left: 20%">Most Popular</div>
+  </div>
    <div class = "book-menu">
      <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965037160547897384/unknown.png" width="100%" height="100%"> </span>
      <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965037485421907968/unknown.png" width="100%" height="100%"> </span>
@@ -179,8 +185,9 @@ li{display: in-line;}
      <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965037762472443994/unknown.png" width="100%" height="100%"> </span>
  </div>
  
- <div class = "text-box">Newly Released</div>
- <div class = "book-menu">
+ <div class = "text-box">
+ <div class= "item" style = "margin-left: 18%">Newly Released</div>
+  </div>
    <div class = "book-menu">
      <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965038293546831992/unknown.png" width="100%" height="100%"> </span>
      <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965038511730348072/unknown.png" width="100%" height="100%"> </span>
@@ -195,3 +202,4 @@ li{display: in-line;}
 </body>
 </span>
 </div>
+
