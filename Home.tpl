@@ -55,7 +55,7 @@ div.search input[type=text] {
 div.search{
         margin:auto;
         padding: 1% 0%;
-        margin-left: 25%;
+        margin-left: 23%;
     }
           
 div.search button{
@@ -64,7 +64,7 @@ div.search button{
         color: #1b1b2a;
         padding: 0.3% 2%;
         float: right;
-        margin-right: 17%;
+        margin-right: 18%;
         font-size: 12px;
         border: none;
         cursor: pointer;
@@ -76,20 +76,47 @@ div.search button:hover {
 
 /* styling main content */
 div.scroll {
-  width: 50%;
-  height: 150px;
+  width: 100%;
+  height: 80%;
   overflow-x: hidden;
   overflow-y: auto;
   text-align: center;
   padding: 20px;
 }
+/* Styling book menu */
+ul {
+  list-style-type: none;}
 
 /* Styling text boxes within book menu */
-.text-block {
+.text-box{
   border: solid #1b1b2a;
   font-size: 20 px;
+  margin-top: 10px;
+  margin-left 2%;
+  width: fit-content;
   
 }
+
+.book-menu {
+   margin: 100%, 100%;
+   padding: 4px;
+   background-color: none;
+   overflow-x: auto;
+   overflow-y: hidden;
+   white-space: nowrap;
+   }
+
+span.a {
+  display: inline-block;
+  width: 25%;
+  height: 30%;
+  padding: 5px;
+  margin-top: 2%;
+  margin-right: 4%;   
+  background-color: none; 
+
+/* Styling books in book menu */
+li{display: in-line;}
 
 
 </style>
@@ -135,18 +162,33 @@ div.scroll {
 
 <!-- Main Content: contains the books and related info user wants -->
 <div class = "scroll">
+  <div class = "text-box">Recommendations</div>
   <div class = "book-menu">
-    <div class= "text-block">
-      <h4>Recommendations</h4>
-    </div>
-  <div class = "book-menu">
-    <div class= "text-block">
-      <h4>Most Popular</h4>
-    </div>
-  <div class = "book-menu">
-    <div class= "text-block">
-      <h4>Newly Released</h4>
-    </div>
+     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965022913096978432/unknown.png" width="100%" height="100%"> </span>
+     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965033176466604082/unknown.png" width="100%" height="100%"> </span>
+     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965033267701121034/unknown.png" width="100%" height="100%"> </span>
+     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965033356553240597/unknown.png" width="100%" height="100%"> </span>
+ </div>
+ 
+ <div class = "text-box">Most Popular</div>
+ <div class = "book-menu">
+   <div class = "book-menu">
+     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965037160547897384/unknown.png" width="100%" height="100%"> </span>
+     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965037485421907968/unknown.png" width="100%" height="100%"> </span>
+     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965037486629863444/unknown.png" width="100%" height="100%"> </span>
+     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965037762472443994/unknown.png" width="100%" height="100%"> </span>
+ </div>
+ 
+ <div class = "text-box">Newly Released</div>
+ <div class = "book-menu">
+   <div class = "book-menu">
+     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965038293546831992/unknown.png" width="100%" height="100%"> </span>
+     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965038511730348072/unknown.png" width="100%" height="100%"> </span>
+     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965038632941539378/unknown.png" width="100%" height="100%"> </span>
+     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965038874772512838/unknown.png" width="100%" height="100%"> </span>
+ </div>
+
+
   
 </div>
 
