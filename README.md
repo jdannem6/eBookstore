@@ -8,7 +8,7 @@ pip3 install dataset
 
 #### Clone the repository into a local directory.
 
-##### Within that local directory, setup your environment by running
+#### Within that local directory, setup your environment by running
 python3 setup.py
 
 #### Now run the web application on localhost by running
