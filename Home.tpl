@@ -36,18 +36,16 @@ button {
   display: inline-block;
   margin: 0;
 }
-
 /* Link styles */
 div.link {
 margin-left: 60%
 }
-
 .div-banner { background-color: #1b1b2a }
 .w3-border-theme-dark-blue {border-color:#14141f !important}
 /* Styling search bar */
 div.search input[type=text] {
-  width:300px;
-  height:20px;
+  width: 65%;
+  height:2.8%;
   border-radius:25px;
   border: none;
   }
@@ -64,7 +62,7 @@ div.search button{
         color: #1b1b2a;
         padding: 0.3% 2%;
         float: right;
-        margin-right: 18%;
+        margin-right: 27%;
         font-size: 12px;
         border: none;
         cursor: pointer;
@@ -73,7 +71,6 @@ div.search button{
 div.search button:hover {
     	background: #cecece;
         }
-
 /* styling main content */
 div.scroll {
   width: 100%;
@@ -83,16 +80,14 @@ div.scroll {
   text-align: center;
   padding: 20px;
 }
-
 /* Styling text boxes within book menu */
 .text-box{
   border: solid #1b1b2a;
   font-size: 20 px;
   margin-top: 10px;
   margin-left 2%;
-  width: 30%;
+  width: 40%;
 }
-
 .item {
   width: -moz-fit-content;
   width: fit-content
@@ -107,21 +102,16 @@ div.scroll {
    overflow-y: hidden;
    white-space: nowrap;
    }
-
-
 span.a {
   display: inline-block;
-  width: 25%;
-  height: 30%;
+  width: 30 px;
+  height: 40 px;
   padding: 5px;
   margin-top: 2%;
   margin-right: 4%;   
   background-color: none; 
-
 /* Styling books in book menu */
 li{display: in-line;}
-
-
 </style>
 </head>
 <p>
@@ -162,44 +152,39 @@ li{display: in-line;}
   <a href="#" style="width:25%" class="w3-bar-item w3-button">About Us</a>
   <a href="#" style="width:25%" class="w3-bar-item w3-button">Contact Us</a>
 </div>
-
 <!-- Main Content: contains the books and related info user wants -->
 <div class= "scroll">
   <div class= "text-box">
     <div class= "item" style = "margin-left: 10%">Recommendations</div>
   </div>
   <div class = "book-menu">
-     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965022913096978432/unknown.png" width="100%" height="100%"> </span>
-     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965033176466604082/unknown.png" width="100%" height="100%"> </span>
-     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965033267701121034/unknown.png" width="100%" height="100%"> </span>
-     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965033356553240597/unknown.png" width="100%" height="100%"> </span>
+     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965022913096978432/unknown.png" width = "150 px" height = "240 px"> </span>
+     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965033176466604082/unknown.png" width = "150 px" height = "240 px"> </span>
+     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965033267701121034/unknown.png" width = "150 px" height = "240 px"> </span>
+     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965033356553240597/unknown.png" width = "150 px" height = "240 px"> </span>
  </div>
  
  <div class = "text-box">
   <div class= "item" style = "margin-left: 20%">Most Popular</div>
   </div>
    <div class = "book-menu">
-     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965037160547897384/unknown.png" width="100%" height="100%"> </span>
-     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965037485421907968/unknown.png" width="100%" height="100%"> </span>
-     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965037486629863444/unknown.png" width="100%" height="100%"> </span>
-     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965037762472443994/unknown.png" width="100%" height="100%"> </span>
+     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965037160547897384/unknown.png" width = "150 px" height = "240 px"> </span>
+     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965037485421907968/unknown.png" width = "150 px" height = "240 px"> </span>
+     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965037486629863444/unknown.png" width = "150 px" height = "240 px"> </span>
+     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965037762472443994/unknown.png" width = "150 px" height = "240 px"> </span>
  </div>
  
  <div class = "text-box">
  <div class= "item" style = "margin-left: 18%">Newly Released</div>
   </div>
    <div class = "book-menu">
-     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965038293546831992/unknown.png" width="100%" height="100%"> </span>
-     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965038511730348072/unknown.png" width="100%" height="100%"> </span>
-     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965038632941539378/unknown.png" width="100%" height="100%"> </span>
-     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965038874772512838/unknown.png" width="100%" height="100%"> </span>
+     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965038293546831992/unknown.png" width = "150 px" height = "240 px"> </span>
+     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965038511730348072/unknown.png" width = "150 px" height = "240 px"> </span>
+     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965038632941539378/unknown.png" width = "150 px" height = "240 px"> </span>
+     <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965038874772512838/unknown.png" width = "150 px" height = "240 px"> </span>
  </div>
-
-
   
 </div>
-
 </body>
 </span>
 </div>
-
