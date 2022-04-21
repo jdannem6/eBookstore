@@ -30,7 +30,7 @@ else:
 @route('/')
 @route('/home')
 def tasks():
-    return template("home.tpl")
+    return template("Home.tpl")
 
 @route('/login')
 def login():
