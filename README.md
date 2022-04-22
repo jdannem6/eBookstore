@@ -7,6 +7,7 @@ pip3 install bottle
 pip3 install dataset
 
 #### Clone the repository into a local directory.
+git clone --single-branch --branch JustinsBranch https://github.com/jdannem6/eBookstore.git
 
 #### Within that local directory, setup your environment by running
 python3 setup.py
