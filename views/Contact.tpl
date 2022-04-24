@@ -1,0 +1,157 @@
+% include("banner.tpl")
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
+<!-- link for search icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #c6c6c6 ;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #7D7C7D;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.container2 {
+  border-radius: 5px;
+  background-color: #E5E5E5;
+  padding: 20px;
+  float: right;
+  margin-top: 6px;
+}
+  
+.fa2 {
+  padding: 12px 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  }
+
+.fa3 {
+  padding: 12px 23px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+}
+</style>
+</head>
+<body>
+
+<ul class="breadcrumb">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Contact Us</a></li>
+</ul>
+<div class="container">
+  <form action="/action_page.php">
+    <label for="email">Email</label>
+    <input type="text" id="fname" name="email" placeholder="Your email..">
+
+    <label for="subject">Subject</label>
+    <input type="text" id="lname" name="subject" placeholder="The subject..">
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Delete">
+    <input type="submit" value="Undo">
+    <input type="submit" value="Submit">
+  </form>
+  </div>
+  </body>
+<div class="container2">
+<div class="fa">
+  <a href="#" class="fa3 fa-facebook"></a>
+</div>
+<div class="fa">
+  <a href="#" class="fa2 fa-twitter"></a>
+</div>
+<div class="fa">
+  <a href="#" class="fa2 fa-instagram"></a>
+</div>
+<div class="fa">
+  <a href="#" class="fa2 fa-youtube"></a>
+</div>
+</div>
+</html>

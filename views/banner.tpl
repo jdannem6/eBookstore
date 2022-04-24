@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
 <!-- link for search icon -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+<head>  
 <style>
 body {
   background-color: #d3d6de;
@@ -36,18 +36,16 @@ button {
   display: inline-block;
   margin: 0;
 }
-
 /* Link styles */
 div.link {
-margin-left: 60%
+margin-left: 80%
 }
-
 .div-banner { background-color: #1b1b2a }
 .w3-border-theme-dark-blue {border-color:#14141f !important}
 /* Styling search bar */
-div.search input[type=text] {
-  width:300px;
-  height:20px;
+div.search input[type=text2] {
+  width: 65%;
+  height:2.8%;
   border-radius:25px;
   border: none;
   }
@@ -55,7 +53,7 @@ div.search input[type=text] {
 div.search{
         margin:auto;
         padding: 1% 0%;
-        margin-left: 25%;
+        margin-left: 23%;
     }
           
 div.search button{
@@ -64,7 +62,7 @@ div.search button{
         color: #1b1b2a;
         padding: 0.3% 2%;
         float: right;
-        margin-right: 17%;
+        margin-right: 27%;
         font-size: 12px;
         border: none;
         cursor: pointer;
@@ -73,25 +71,8 @@ div.search button{
 div.search button:hover {
     	background: #cecece;
         }
-
-/* styling main content */
-div.scroll {
-  width: 50%;
-  height: 150px;
-  overflow-x: hidden;
-  overflow-y: auto;
-  text-align: center;
-  padding: 20px;
-}
-
-/* Styling text boxes within book menu */
-.text-block {
-  border: solid #1b1b2a;
-  font-size: 20 px;
-  
-}
-
-
+/* Styling books in book menu */
+li{display: in-line;}
 </style>
 </head>
 <p>
@@ -112,9 +93,9 @@ div.scroll {
   
   <! -- Search bar -->
 <div class="search">
-              
+
             <form action="#">
-                <input type="text"
+                <input type="text2"
                     placeholder=" Search Books"
                     name="search">
                 <button>
@@ -132,24 +113,6 @@ div.scroll {
   <a href="#" style="width:25%" class="w3-bar-item w3-button">About Us</a>
   <a href="#" style="width:25%" class="w3-bar-item w3-button">Contact Us</a>
 </div>
-
-<!-- Main Content: contains the books and related info user wants -->
-<div class = "scroll">
-  <div class = "book-menu">
-    <div class= "text-block">
-      <h4>Recommendations</h4>
-    </div>
-  <div class = "book-menu">
-    <div class= "text-block">
-      <h4>Most Popular</h4>
-    </div>
-  <div class = "book-menu">
-    <div class= "text-block">
-      <h4>Newly Released</h4>
-    </div>
-  
-</div>
-
 </body>
 </span>
 </div>
