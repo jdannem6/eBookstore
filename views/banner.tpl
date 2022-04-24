@@ -78,7 +78,7 @@ li{display: in-line;}
 <p>
 <! -- Links: all link to w3 page right now. -->
 <div class="link">
- <a href="https://www.w3schools.com/">My Cart</a>
+ <a href="/cart">My Cart</a>
    <text> | </text>
  <a href="https://www.w3schools.com/">My Account</a>
    <text> | </text>
@@ -108,10 +108,10 @@ li{display: in-line;}
   
   <! -- Horizontal Navigation menu -->
 <div class="w3-bar w3-border w3-light-grey w3-center">
-  <a href="#" style="width:25%" class="w3-bar-item w3-button">Home</a>
-  <a href="#" style="width:25%" class="w3-bar-item w3-button">Genres</a>
+  <a href="/home" style="width:25%" class="w3-bar-item w3-button">Home</a>
+  <a href="/genres" style="width:25%" class="w3-bar-item w3-button">Genres</a>
   <a href="#" style="width:25%" class="w3-bar-item w3-button">About Us</a>
-  <a href="#" style="width:25%" class="w3-bar-item w3-button">Contact Us</a>
+  <a href="/contact" style="width:25%" class="w3-bar-item w3-button">Contact Us</a>
 </div>
 </body>
 </span>

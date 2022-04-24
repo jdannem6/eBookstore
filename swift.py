@@ -37,6 +37,9 @@ def genres():
 @route('/contact')
 def contact():
     return template("Contact.tpl")
+@route('/cart')
+def cart():
+    return template("Cart.tpl")
 @route('/book')
 def book():
     return template("Book.tpl")
