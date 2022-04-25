@@ -6,7 +6,9 @@
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
 <!-- link for search icon -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   
 <style>
 body {
@@ -81,13 +83,15 @@ li{display: in-line;}
 <p>
 <! -- Links: all link to w3 page right now. -->
 <div class="link">
- <a href="https://www.w3schools.com/">My Cart</a>
+ <a href="mycart">My Cart</a>
    <text> | </text>
- <a href="https://www.w3schools.com/">My Account</a>
+ <a href="myaccount">My Account</a>
    <text> | </text>
  <a href="login">Login</a>
    <text> | </text>
  <a href="signup">Sign Up</a>
+    <text> | </text>
+ <a data-target="#logoutModal" data-toggle="modal" href="#logoutModal">Log Out</a>
  </div>
  </p>
 <body>
@@ -113,12 +117,32 @@ li{display: in-line;}
   
   <! -- Horizontal Navigation menu -->
 <div class="w3-bar w3-border w3-light-grey w3-center">
-  <a href="#" style="width:25%" class="w3-bar-item w3-button">Home</a>
-  <a href="#" style="width:25%" class="w3-bar-item w3-button">Genres</a>
-  <a href="#" style="width:25%" class="w3-bar-item w3-button">About Us</a>
+  <a href="home" style="width:25%" class="w3-bar-item w3-button">Home</a>
+  <a href="genres" style="width:25%" class="w3-bar-item w3-button">Genres</a>
+  <a href="aboutus" style="width:25%" class="w3-bar-item w3-button">About Us</a>
   <a href="#" style="width:25%" class="w3-bar-item w3-button">Contact Us</a>
 </div>
 
 </body>
 </span>
+</div>
+
+<!-- Modal -->
+<div id="logoutModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+       
+        <h4 class="modal-title">Logout</h4>
+      </div>
+      <div class="modal-body">
+        <p>You've been successfully logged out.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
 </div>

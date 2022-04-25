@@ -44,8 +44,15 @@ def forgotpass():
 def login():
     return template("register.tpl")
 @route('/signup')
-def login():
+def signup():
     return template("signup.tpl")
+@route('/myaccount')
+def myaccount():
+    return template("myaccount.tpl")
+
+@route('/aboutus')
+def aboutus():
+    return template("About.tpl")
 
 @route('/book')
 def book():
