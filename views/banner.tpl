@@ -88,7 +88,7 @@ li{display: in-line;}
 <div class="link">
  <a href="/cart">My Cart</a>
    <text> | </text>
- <a href="/myaccount">My Account</a>
+ <a href="/account">My Account</a>
    <text> | </text>
  <a href="/login">Login</a>
    <text> | </text>

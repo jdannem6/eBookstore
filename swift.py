@@ -40,6 +40,18 @@ def contact():
 @route('/cart')
 def cart():
     return template("Cart.tpl")
+@route('/login')
+def login():
+    return template("login.tpl")
+@route('/account')
+def account():
+    return template("myaccount.tpl")
+@route('/signup')
+def signup():
+    return template("signup.tpl")
+@route('/forgotpass')
+def fortgotpass():
+    return template("forgotpass.tpl")
 @route('/book')
 def book():
     return template("Book.tpl")
