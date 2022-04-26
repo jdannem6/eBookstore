@@ -1,15 +1,4 @@
 % include("banner.tpl")
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
-<!-- link for search icon -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 ul.breadcrumb {
   padding: 10px 16px;
@@ -124,7 +113,6 @@ input[type=submit]:hover {
   <li><a href="#">Contact Us</a></li>
 </ul>
 <div class="container">
-  <form action="/action_page.php">
     <label for="email">Email</label>
     <input type="text" id="fname" name="email" placeholder="Your email..">
 
@@ -134,10 +122,20 @@ input[type=submit]:hover {
     <label for="message">Message</label>
     <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
 
-    <input type="submit" value="Delete">
-    <input type="submit" value="Undo">
-    <input type="submit" value="Submit">
-  </form>
+  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-red">Delete</button>
+  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-grey">Undo</button>
+  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-green">Submit</button>
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+       <p></p>
+        <p>Error: Our systems are having difficulties. Please try again at another different time.</p>
+        <p></p>
+        <p></p>
+      </div>
+    </div>
+  </div>
   </div>
   </body>
 <div class="container2">

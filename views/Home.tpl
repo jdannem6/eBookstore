@@ -1,6 +1,4 @@
 % include("banner.tpl")
-
-
 <style>
 <head>
 /* styling main content */
@@ -81,7 +79,6 @@ li{display: in-line;}
     <a href="spear"> <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965038632941539378/unknown.png" width = "150 px" height = "240 px"> </span></a>
     <a href="death_by_shakespeare"> <span class= "a"> <img src="https://cdn.discordapp.com/attachments/965022879982960661/965038874772512838/unknown.png" width = "150 px" height = "240 px"> </span> </a>
  </div>
-  
 </div>
 </body>
 </span>
