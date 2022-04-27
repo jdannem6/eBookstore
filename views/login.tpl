@@ -1,7 +1,4 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 <style>
 body {
@@ -27,7 +24,7 @@ body {
 					<div class="d-table-cell align-middle">
 
 						<div class="text-left mt-4">
-							<h1 class="h2">Recover Password</h1>
+							<h1 class="h2">Login</h1>
 						</div>
 
 						<div class="card" style="width: 50rem;>
@@ -36,36 +33,28 @@ body {
 									<form>
 										<div class="form-group">
 											<label>Email</label>
-											<input class="form-control form-control-lg" type="text" name="forgotpass" placeholder="Enter your email">
+											<input class="form-control form-control-lg" type="text" name="company" placeholder="Enter your email">
 										</div>
+										<div class="form-group">
+											<label>Password</label>
+											<input class="form-control form-control-lg" type="email" name="email" placeholder="Enter your password">
+										</div>
+                                        <div class="form-group">
+                                            <label>
+                                            <input type="checkbox" checked="checked" name="remember"> Remember me
+                                            </label>
+                                        </div>
 										<div class="text-center mt-3">
-											<!-- Trigger the modal with a button -->
-                                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Recover Password</button>
+											<a href="home" class="btn btn-lg btn-primary">Login</a>
+											<a href="forgotpass"><p style="text-align:center;"> Forgot your password? </p></a>
 										</div>
 									</form>
 								</div>
 							</div>
+                            <a href="signup"><p style="text-align:center;"> Don't have an account? Sign up here! </p></a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 </body>
-<!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-       
-        <h4 class="modal-title">Password Recovery</h4>
-      </div>
-      <div class="modal-body">
-        <p>Please check your email for further information on recovering your password.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
