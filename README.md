@@ -9,9 +9,6 @@ pip3 install dataset
 #### Clone the repository into a local directory.
 git clone --single-branch --branch main https://github.com/jdannem6/eBookstore.git
 
-#### Within that local directory, setup your environment by running
-python3 setup.py
-
 #### Now run the web application on http://localhost:8080/ by running, 
 python3 swift.py
 
