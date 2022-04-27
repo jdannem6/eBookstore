@@ -10,7 +10,6 @@ img.book {
   margin-top: 3%; 
   margin-left: 20px;
 }
-
 .book_info {
   float:left;
   overflow-x: auto;
@@ -20,31 +19,25 @@ img.book {
   white-space: wrap;
   width: calc(100% - 35% - 1.5% - 20px);
 }
-
 .price {
   float: left;
   font-size: 18px;
 }
-
 .step_container {
   float:left;
 }
-
 .stepper {
   width: 60px;
 }
-
 span.a {
   display: inline-block;
   float: left;
   padding-right: 3%;
   padding-left: 3%;
  }
-
 .cart {
   float:left;
 }
-
 </style>
 </head>
 
@@ -78,5 +71,3 @@ span.a {
      </span>
   </div>
 </body>
-
-
