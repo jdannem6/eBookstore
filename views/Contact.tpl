@@ -1,28 +1,5 @@
 % include("banner.tpl")
 <style>
-ul.breadcrumb {
-  padding: 10px 16px;
-  list-style: none;
-  background-color: #eee;
-}
-ul.breadcrumb li {
-  display: inline;
-  font-size: 18px;
-}
-ul.breadcrumb li+li:before {
-  padding: 8px;
-  color: black;
-  content: "/\00a0";
-}
-ul.breadcrumb li a {
-  color: #0275d8;
-  text-decoration: none;
-}
-ul.breadcrumb li a:hover {
-  color: #01447e;
-  text-decoration: underline;
-}
-
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -109,10 +86,11 @@ input[type=submit]:hover {
 <body>
 
 <ul class="breadcrumb">
-  <li><a href="#">Home</a></li>
-  <li><a href="#">Contact Us</a></li>
+  <li><a href="/home">Home</a></li>
+  <li><a href="/contact">Contact Us</a></li>
 </ul>
 <div class="container">
+<form>
     <label for="email">Email</label>
     <input type="text" id="fname" name="email" placeholder="Your email..">
 
@@ -121,16 +99,16 @@ input[type=submit]:hover {
 
     <label for="message">Message</label>
     <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
-
-  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-red">Delete</button>
-  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-grey">Undo</button>
-  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-green">Submit</button>
+  <button input type="reset" class="w3-button w3-red">Delete</button>
+  <button input type="reset" class="w3-button w3-grey">Undo</button>
+ <button type="button" onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-green">Submit</button>
+     </form> 
   <div id="id01" class="w3-modal">
     <div class="w3-modal-content">
       <div class="w3-container">
         <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
        <p></p>
-        <p>Error: Our systems are having difficulties. Please try again at another different time.</p>
+        <p>Error: Our systems are having difficulties. Please try again at another time.</p>
         <p></p>
         <p></p>
       </div>

@@ -47,8 +47,12 @@ span.a {
 
 </style>
 </head>
-
-
+<ul class="breadcrumb">
+  <li><a href="/home">Home</a></li>
+  <li><a href="/genres">Genres</a></li>
+  <li><a href="/genres">Adventure</a></li>
+  <li><a href="/sorcerers_stone">Harry Potter and The Sorcerer's Stone</a></li>
+</ul>
 
 <!-- Container for book information -->
 <body>

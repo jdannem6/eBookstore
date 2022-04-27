@@ -15,29 +15,6 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <style>
-ul.breadcrumb {
-  padding: 10px 16px;
-  list-style: none;
-  background-color: #eee;
-}
-ul.breadcrumb li {
-  display: inline;
-  font-size: 18px;
-}
-ul.breadcrumb li+li:before {
-  padding: 8px;
-  color: black;
-  content: "/\00a0";
-}
-ul.breadcrumb li a {
-  color: #0275d8;
-  text-decoration: none;
-}
-ul.breadcrumb li a:hover {
-  color: #01447e;
-  text-decoration: underline;
-}
-
 .row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
@@ -135,8 +112,8 @@ span.price {
 </head>
 <body>
 <ul class="breadcrumb">
-  <li><a href="#">Home</a></li>
-  <li><a href="#">My Cart</a></li>
+  <li><a href="/home">Home</a></li>
+  <li><a href="/cart">My Cart</a></li>
 </ul>
 <div class="row">
   <div class="col-75">
@@ -221,7 +198,7 @@ span.price {
         <h4 class="modal-title">Checkout</h4>
       </div>
       <div class="modal-body">
-        <p>Error: Our systems are having difficulties, please try again at another different time.</p>
+        <p>Error: Our systems are having difficulties, please try again at another time.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

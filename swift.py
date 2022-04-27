@@ -34,6 +34,9 @@ def home():
 @route('/genres')
 def genres():
     return template("Genres.tpl")
+@route('/about')
+def about():
+    return template("About.tpl")
 @route('/contact')
 def contact():
     return template("Contact.tpl")

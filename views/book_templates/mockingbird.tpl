@@ -47,7 +47,12 @@ span.a {
 
 </style>
 </head>
-
+<ul class="breadcrumb">
+  <li><a href="/home">Home</a></li>
+  <li><a href="/genres">Genres</a></li>
+  <li><a href="/genres">Drama</a></li>
+  <li><a href="/to_kill_a_mockingbird">To Kill a Mockingbird</a></li>
+</ul>
 
 
 <!-- Container for book information -->

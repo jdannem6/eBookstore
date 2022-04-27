@@ -25,8 +25,8 @@ ul.breadcrumb li a:hover {
 </style>
 <body>
 <ul class="breadcrumb">
-  <li><a href="home">Home</a></li>
-  <li><a href="aboutus">About Us</a></li>
+  <li><a href="/home">Home</a></li>
+  <li><a href="/about">About Us</a></li>
 </ul>
 </body>
 <h1 style = "padding-left: 50px;"> About Us: </h1>

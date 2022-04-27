@@ -25,15 +25,11 @@ ul.breadcrumb li a:hover {
 </style>
 <body>
 <ul class="breadcrumb">
-  <li><a href="home">Home</a></li>
-  <li><a href="myaccount">My Account</a></li>
+  <li><a href="/home">Home</a></li>
+  <li><a href="/account">My Account</a></li>
 </ul>
 </body>
-<br>
-<h1 style = "padding-left: 50px;">My Account:</h1>
-
-										
-
+<br>		
 <div class="card" "col-md-6 jobs_index_middle_panels" style = "padding-left: 50px; padding-right: 50px;">
  
   <div class="card-body" >

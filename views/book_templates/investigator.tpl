@@ -52,7 +52,12 @@ span.a {
 
 <!-- Container for book information -->
 <body>
-
+<ul class="breadcrumb">
+  <li><a href="/home">Home</a></li>
+  <li><a href="/genres">Genres</a></li>
+  <li><a href="/genres">Mystery</a></li>
+  <li><a href="/the_investigator">The Investigator</a></li>
+</ul>
 
   <img src="https://cdn.discordapp.com/attachments/965022879982960661/965038293546831992/unknown.png" width = "225px" height = "360px" class="book">
   <div class="book_info">
