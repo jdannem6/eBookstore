@@ -4,7 +4,7 @@ A simple web application which emulates a basic eBookstore.
 ## Set-up
 #### Download bottle and dataset packages through pip installer with the following lines:
 pip3 install bottle
-pip3 install dataset
+
 
 #### Clone the repository into a local directory.
 git clone --single-branch --branch main https://github.com/jdannem6/eBookstore.git
