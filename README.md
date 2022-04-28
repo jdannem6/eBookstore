@@ -1,7 +1,9 @@
 # eBookstore
 A simple web application which emulates a basic eBookstore.
 
-## Set-up
+## Download files, extract files from zip, run swift.py, go to http://localhost:8080/
+
+## Terminal Set-up
 #### Download bottle and dataset packages through pip installer with the following lines:
 pip3 install bottle
 pip3 install dataset
@@ -10,7 +12,7 @@ pip3 install dataset
 #### Clone the repository into a local directory.
 git clone --single-branch --branch main https://github.com/jdannem6/eBookstore.git
 
-#### Now run the web application on http://localhost:8080/ by running, 
+#### Now run the web application on http://localhost:8080/ by running:
 python3 swift.py
 
 ## Changes made since Wireframe:
